@@ -1,6 +1,7 @@
 @import url('./nav/nav.css');
 @import url('./containers/content.css');
 @import url('./header/header.css');
+@import url('./products/products.css');
 
 :root{
     --pink: #FF5E60;
@@ -8,6 +9,7 @@
     --white: white;
     --black: black;
     --font:'Jost', sans-serif;
+    --nav-offset: 0px;
 }
 *{
     margin: 0;
