@@ -46,7 +46,7 @@ section{
 }
 
 section .content{
-    margin-top: calc(100px + var(--nav-offset));
+    margin-top: calc(50px + var(--nav-offset));
     display: flex;
     align-items: center;
     flex-direction: column;
