@@ -7,6 +7,7 @@ header{
 .panel{
     flex: 1;
     background-position: center;
+    position: relative;
 }
 
 .panel1{
@@ -20,4 +21,20 @@ header{
 }
 .panel4{
     background-image: url(../../assets/header/4.jpg);
+}
+
+.panel:hover .panel-overlay{
+    opacity: 0;
+    cursor: pointer;
+}
+
+.panel-overlay{
+    transition: .5s;
+    top: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: var(--pink);
+    opacity: .3;
 }

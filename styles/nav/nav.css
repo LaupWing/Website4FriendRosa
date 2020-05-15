@@ -3,6 +3,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
     background-color: var(--white);
 }
 
@@ -13,7 +14,7 @@ nav .content{
 }
 
 h1#logo img{
-    width: 200px;
+    width: 150px;
 }
 
 nav ul{
