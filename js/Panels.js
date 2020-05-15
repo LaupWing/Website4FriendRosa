@@ -8,7 +8,7 @@ export default class Panels{
             });
             setTimeout(()=>{
                 this.applyTranstion(panel);
-            },1)
+            },500)
         });
     }
     applyTranstion(panel){
