@@ -6,7 +6,9 @@ export default class Panels{
             events.forEach(evtName=>{
                 panel.addEventListener(evtName, this[`${evtName}Handler`]);
             });
-            this.applyTranstion(panel);
+            setTimeout(()=>{
+                this.applyTranstion(panel);
+            },1)
         });
     }
     applyTranstion(panel){
