@@ -1,4 +1,23 @@
 header{
     background-color: orange;
     height: 100vh;
+    display: flex;
+}
+
+.panel{
+    flex: 1;
+    background-position: center;
+}
+
+.panel1{
+    background-image: url(../../assets/header/1.jpg);
+}
+.panel2{
+    background-image: url(../../assets/header/3.jpg);
+}
+.panel3{
+    background-image: url(../../assets/header/2.jpg);
+}
+.panel4{
+    background-image: url(../../assets/header/4.jpg);
 }
