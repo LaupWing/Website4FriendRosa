@@ -4,7 +4,7 @@ function setNavOffset(){
     setTimeout(() => {
         const offset = document.querySelector('nav').getBoundingClientRect().height;
         document.documentElement.style.setProperty('--nav-offset', offset + "px");
-    }, 1);
+    }, 500);
 }
 
 function customHomeLink(){
