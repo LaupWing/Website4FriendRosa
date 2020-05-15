@@ -5,7 +5,15 @@ function setNavOffset(){
     document.documentElement.style.setProperty('--nav-offset', offset + "px");
 }
 
+function customHomeLink(){
+    document.querySelector('nav a').addEventListener('click', e=>{
+        e.preventDefault();
+        console.log(document.body.scrollTop)
+    })
+}
+
 window.addEventListener('DOMContentLoaded', ()=>{
     new Panels();
+    customHomeLink();
     setNavOffset();
 });

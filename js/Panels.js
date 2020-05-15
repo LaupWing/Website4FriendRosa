@@ -6,7 +6,11 @@ export default class Panels{
             events.forEach(evtName=>{
                 panel.addEventListener(evtName, this[`${evtName}Handler`]);
             });
+            this.applyTranstion(panel);
         });
+    }
+    applyTranstion(panel){
+        panel.style.transition = 'font-size .7s cubic-bezier(0.61, -0.19, 0.7, -0.11),flex .7s cubic-bezier(0.61, -0.19, 0.7, -0.11),background .2s';
     }
     clickHandler(e){
         const panel = e.target.closest('.panel');

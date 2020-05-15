@@ -10,6 +10,7 @@
     --black: black;
     --font:'Jost', sans-serif;
     --nav-offset: 0px;
+    --border-color: rgba(0, 0, 0, .15);
 }
 html{
     scroll-behavior: smooth;
@@ -41,7 +42,7 @@ body{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section .content{
