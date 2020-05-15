@@ -8,7 +8,7 @@ function setNavOffset(){
 function customHomeLink(){
     document.querySelector('nav a').addEventListener('click', e=>{
         e.preventDefault();
-        console.log(document.body.scrollTop)
+        window.scrollTo(0,0);
     })
 }
 
