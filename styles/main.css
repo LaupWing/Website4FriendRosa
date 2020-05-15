@@ -11,6 +11,9 @@
     --font:'Jost', sans-serif;
     --nav-offset: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -35,4 +38,24 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+section{
+    height: 100vh;
+}
+
+section .content{
+    margin-top: calc(100px + var(--nav-offset));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h2{
+    text-align: center;
+    border: solid 2px var(--pink);
+    border-left: none;
+    border-right: none;
+    text-transform: uppercase;
+    color: var(--pink);
 }

@@ -1,7 +1,6 @@
 header{
-    height: calc(100vh - var(--nav-offset));
+    height: 100vh;
     display: flex;
-    margin-top: var(--nav-offset);
     overflow: hidden;
 }
 
