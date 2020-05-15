@@ -1,8 +1,10 @@
 import Panels from './Panels.js';
 
 function setNavOffset(){
-    const offset = document.querySelector('nav').getBoundingClientRect().height;
-    document.documentElement.style.setProperty('--nav-offset', offset + "px");
+    setTimeout(() => {
+        const offset = document.querySelector('nav').getBoundingClientRect().height;
+        document.documentElement.style.setProperty('--nav-offset', offset + "px");
+    }, 1);
 }
 
 function customHomeLink(){
