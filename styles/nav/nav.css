@@ -1,0 +1,24 @@
+nav{
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+}
+
+nav .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1#logo img{
+    width: 200px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0 10px;
+}
