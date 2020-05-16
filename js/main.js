@@ -1,4 +1,5 @@
 import Panels from './Panels.js';
+import NavHighlight from './NavHighlight.js';
 
 function setNavOffset(){
     setTimeout(() => {
@@ -16,6 +17,7 @@ function customHomeLink(){
 
 window.addEventListener('DOMContentLoaded', ()=>{
     new Panels();
+    new NavHighlight();
     customHomeLink();
     setNavOffset();
 });
