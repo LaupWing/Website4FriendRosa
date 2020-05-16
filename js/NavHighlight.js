@@ -7,7 +7,8 @@ export default class NavHighlight{
         const scrolled = window.scrollY;
         console.log(scrolled);
         this.whitelist.forEach(item=>{
-            console.log(document.getElementById(item));
+            console.log(item)
+            console.log(document.getElementById(item).offsetTop);
         })
     }
 }
